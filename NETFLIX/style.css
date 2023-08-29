@@ -1,0 +1,67 @@
+/* seletor -> propriedade -> valor */
+
+body{
+    background-color: #141414;
+}
+
+#content{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold ;
+    font-size: 20px;
+}
+
+.carousel {
+    display: flex; /*Deixa tudo em uma limha*/
+    flex-wrap: wrap; /*Conforme a tela diminui, joga o car5d para baixo*/
+    align-items: center; /*Alinha os itens no centro*/
+    justify-content: center; /*Alinha o coteúdo no centro*/
+         }
+
+.card{
+    margin: 2px;
+    border: solid 2px #000;
+    width: 250px;
+    height: 500px;
+    box-shadow: 0px 0px 99px #000; /*Efeito de sonbra*/
+    transition: all 1s; /*Para toda  transação, é executada em 1s deixando*/
+   
+     }
+     .thumbnail{
+        width: 100%;
+        height:100%;
+     }
+    
+ 
+.card:hover{
+        -webkit-transform: scale(1.03); /*da um zoom no card*/
+
+           }
+ 
+       
+    h1  {
+        width: 100%;
+    text-align: center;
+    color:red;
+    font-weight: bold ;
+    font-size: 40px
+    } 
+    
+    #owner {
+        margin-top: 100px;
+        text-align: center;
+        color: #D3D3D3;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    #owner a {
+        color: #FFF;
+        text-decoration: none;
+    }
